@@ -8,7 +8,7 @@ def count_kmers(k, seq):
     """
     Summary line: Generates the possible number of kmers of size k for a sequence
 
-    Extended Descirption: Includes a section that will test to make sure k and seq
+    Extended Description: Includes a section that will test to make sure k and seq
         are the correct values.If k or seq is incorrect, will return a message about
         what is wrong with the parameter.
 
@@ -58,7 +58,7 @@ def possible_kmers(sequence):
     Summary line: Creates a pandas dataframe containing all possible k and the observed
     and expected kmers.
 
-    Extended Descirption: Includes a section that will test to make sure sequence is
+    Extended Description: Includes a section that will test to make sure sequence is
     the correct value. If sequence is incorrect, will return a message about
     what is wrong with the parameter. Will output a dataframe with 3 columns: k, observed kmers,
     and possible kmers.
@@ -115,7 +115,7 @@ def linguistic_complexity(sequence):
     """
     Summary line: Generates the linguistic complexity for a sequence
 
-    Extended Descirption: Includes a section that will test to make sure sequence
+    Extended Description: Includes a section that will test to make sure sequence
         is the correct value. If sequence is incorrect, will return a message about
         what is wrong with the parameter. The linguistic complexity is the proportion
         of kmers that are observed compared to the total number that are possibe.
@@ -153,7 +153,7 @@ def kmer_graph(sequence):
     """
     Summary line: Produces a graph of the proportion of each kmer observed
 
-    Extended Descirption: Includes a section that will test to make sure sequence
+    Extended Description: Includes a section that will test to make sure sequence
         us the correct value.If sequence is correct, will return a message about
         what is wrong with the parameter.
 
